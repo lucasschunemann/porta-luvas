@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Lenis from "@studio-freight/lenis";
+import devlogo from "/src/assets/images/vondevlogo.png";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -55,8 +56,8 @@ export default function NavBar({ sectionRefs }) {
       className="fixed top-0 z-50 flex w-full -translate-y-full items-center justify-between bg-secondary-100 px-5 py-3"
     >
       {/* logo */}
-      <a href="#hero" aria-label="Logo" className="z-50 z-50 w-28 h-auto md:w-50">
-        <img src="/src/assets/images/vondevlogo.png" alt="" />
+      <a href="#hero" aria-label="Logo" className="z-50">
+        <img src={devlogo} alt="Logo" className="w-28 h-auto md:w-50" />
       </a>
       <nav className=" space-x-7 font-grotesk text-body-3 sm:block">
         <a href="#about" className="group relative hidden md:inline-block">
