@@ -11,12 +11,11 @@ export default function Services() {
 
   const toolBoxItems = [
     "JavaScript",
-    "HTML",
-    "CSS",
     "Figma",
     "GSAP",
     "TailwindCSS",
     "ReactJS",
+    "VueJS",
   ];
 
   return (
