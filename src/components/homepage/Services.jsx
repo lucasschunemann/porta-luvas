@@ -24,7 +24,7 @@ export default function Services() {
       <div className="space-y-14">
         <ServiceUi
           title="minhas competências."
-          description="Meu objetivo é transformar ideas simples em visuais agradáveis aos olhos mesmo que sejam também simples e minimalistas, transmitir e interpretar ideias transformando elas em código é a minha especialidade."
+          description="Meu objetivo é transformar ideias simples em visuais agradáveis aos olhos mesmo que sejam também simples e minimalistas, transmitir e interpretar ideias transformando elas em código é a minha especialidade."
           items={expertiseItems}
         />
         <ServiceUi
