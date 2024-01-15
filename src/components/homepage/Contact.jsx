@@ -134,6 +134,7 @@ export default function Contact() {
                   <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
+              <br />
             </div>
           </div>
           <div className="space-y-3 ">
