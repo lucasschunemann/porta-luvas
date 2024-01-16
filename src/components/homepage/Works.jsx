@@ -42,7 +42,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://schunemannclinica.netlify.app"
+            link="https://sidebar-vue.netlify.app/"
             img={vueside}
             alt="const image"
             name="Vue Sidebar"
