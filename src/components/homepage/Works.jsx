@@ -1,6 +1,6 @@
 import pfadv from "/src/assets/images/pfadv.png";
 import schunemann from "/src/assets/images/schunemann.png";
-import pro1 from "/src/assets/images/constru.png";
+import vueside from "/src/assets/images/vueside.png";
 import pro2 from "/src/assets/images/constru.png";
 import pro3 from "/src/assets/images/constru.png";
 import Projects from "../ui/Projects";
@@ -43,12 +43,12 @@ export default function Works({ forwardedRef }) {
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
             link="https://schunemannclinica.netlify.app"
-            img={pro1}
+            img={vueside}
             alt="const image"
-            name="em construção"
-            type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • CSS • JavaScript • Figma"
+            name="Vue Sidebar"
+            type="Frontend Development"
+            year="2024"
+            tools="VueJS • SASS • JavaScript"
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
