@@ -1,7 +1,7 @@
 import pfadv from "/src/assets/images/pfadv.png";
 import schunemann from "/src/assets/images/schunemann.png";
 import vueside from "/src/assets/images/vueside.png";
-import pro2 from "/src/assets/images/constru.png";
+import vuetodo from "/src/assets/images/vuetodo.png";
 import pro3 from "/src/assets/images/constru.png";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
@@ -36,7 +36,7 @@ export default function Works({ forwardedRef }) {
             alt="schunemann clinica page mockup"
             name="Clínica Schunemann"
             type="Frontend Development"
-            year="2023"
+            year="2024"
             tools="HTML • CSS • JavaScript"
           />
         </div>
@@ -44,9 +44,9 @@ export default function Works({ forwardedRef }) {
           <Projects
             link="https://sidebar-vue.netlify.app/"
             img={vueside}
-            alt="const image"
+            alt="Sidebar in vue"
             name="Vue Sidebar"
-            type="Frontend Development"
+            type="Frontend Development (Study)"
             year="2024"
             tools="VueJS • SASS • JavaScript"
           />
@@ -54,12 +54,12 @@ export default function Works({ forwardedRef }) {
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
             link="https://schunemannclinica.netlify.app"
-            img={pro2}
-            alt="const image"
-            name="em construção"
-            type="Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            img={vuetodo}
+            alt="to-do list in vue"
+            name="To-Do List"
+            type="Frontend Development (Study)"
+            year="2024"
+            tools="VueJS • JavaScript • CSS"
           />
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
@@ -69,7 +69,7 @@ export default function Works({ forwardedRef }) {
             alt="const image"
             name="em construção"
             type="Frontend Development"
-            year="2022"
+            year="2024"
             tools="HTML • TailwindCSS • JavaScript"
           />
          
