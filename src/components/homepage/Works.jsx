@@ -28,7 +28,7 @@ export default function Works({ forwardedRef }) {
 
           />
         </div>
-        {/* Project #2 */}
+
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
             link="https://schunemannclinica.netlify.app"

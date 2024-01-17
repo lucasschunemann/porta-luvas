@@ -1,41 +1,41 @@
 // projectsData.js
-import ibgroup from '/src/assets/images/ib-group-desktop.webp';
-import memento from '/src/assets/images/memento-desktop.webp';
-import acc from '/src/assets/images/acc-square.webp';
-import daddy from '/src/assets/images/godaddy-desktop.webp';
-import sunnyside from '/src/assets/images/sunny-side-square.webp';
+import pfadv from "/src/assets/images/pfadv.png";
+import schunemann from "/src/assets/images/schunemann.png";
+import vueside from "/src/assets/images/vueside.png";
+import vuetodo from "/src/assets/images/vuetodo.png";
+import pro3 from "/src/assets/images/constru.png";
 
 const projectsData = [
   {
-    title: 'IB Group Vietnam Website',
-    description: 'Web Design / Frontend Development',
-    imageSrc: ibgroup,
-    link: 'https://musical-stroopwafel-1c2327.netlify.app/landing.html'
+    title: "Passig & Firmino Advogados",
+    description: "Web Design / Frontend Development",
+    imageSrc: pfadv,
+    link: "https://pfadvogados.netlify.app",
   },
   {
-    title: 'Memento Studio Landing Page',
-    description: 'Web Design / Frontend Development',
-    imageSrc: memento,
-    link: 'https://mementostudio.netlify.app/'
+    title: "Clínica Schunemann",
+    description: "Web Design / Frontend Development",
+    imageSrc: schunemann,
+    link: "https://schunemannclinica.netlify.app",
   },
   {
-    title: 'Real Business Accountants',
-    description: 'Web Design / Frontend Development',
-    imageSrc: acc,
-    link: 'https://realbusinessaccountants.netlify.app'
+    title: "Vue Sidebar",
+    description: "Frontend Development",
+    imageSrc: vueside,
+    link: "https://sidebar-vue.netlify.app/",
   },
   {
-    title: 'GoDaddy Landing Page Clone',
-    description: 'Web Design / Frontend Development',
-    imageSrc: daddy,
-    link: 'https://godaddyuiclone.netlify.app'
+    title: "To-Do List",
+    description: "Frontend Development",
+    imageSrc: vuetodo,
+    link: "https://to-vue-do.netlify.app",
   },
   {
-    title: 'Sunnyside Landing Page',
-    description: 'Web Design / Frontend Development',
-    imageSrc: sunnyside,
-    link: 'https://sunnysidechallenge.netlify.app'
-  }
+    title: "Construindo",
+    description: "Frontend Development",
+    imageSrc: pro3,
+    link: "https://schunemannclinica.netlify.app",
+  },
 ];
 
 export default projectsData;
