@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex space-x-1" >
           <span>&copy;</span>
           <span>2023/2024</span>
-          <span className="font-extrabold uppercase 2xl:text-body-1">Von</span>
+          <span className="font-extrabold uppercase 2xl:text-body-1">Von | forked from Hyung.</span>
         </div>
         <div>
           <span className=" text-body-4 2xl:text-body-1">Site desenhado e programado com 🍵</span>
