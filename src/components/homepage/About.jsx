@@ -33,7 +33,6 @@ export default function About() {
   }, [aboutSection]);
 
   return (
-    // Try using max width to contain the size of the container
     <section ref={aboutSection} aria-label="about me">
       <Heading title="sobre mim" />
       <div className="mt-10 flex flex-col items-start gap-8 md:flex-row lg:gap-10 ">
