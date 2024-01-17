@@ -53,7 +53,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link="https://schunemannclinica.netlify.app"
+            link="https://to-vue-do.netlify.app"
             img={vuetodo}
             alt="to-do list in vue"
             name="To-Do List"
@@ -70,7 +70,7 @@ export default function Works({ forwardedRef }) {
             name="em construção"
             type="Frontend Development"
             year="2024"
-            tools="HTML • TailwindCSS • JavaScript"
+            tools="HTML • TailwindCSS • React"
           />
          
         </div>
