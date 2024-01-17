@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Lenis from "@studio-freight/lenis";
-import devlogo from "/src/assets/images/vondevlogo.png";
+import devlogo from "/src/assets/images/vondevlogo.webp";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

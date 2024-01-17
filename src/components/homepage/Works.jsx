@@ -1,8 +1,8 @@
-import pfadv from "/src/assets/images/pfadv.png";
-import schunemann from "/src/assets/images/schunemann.png";
-import vueside from "/src/assets/images/vueside.png";
-import vuetodo from "/src/assets/images/vuetodo.png";
-import pro3 from "/src/assets/images/constru.png";
+import pfadv from "/src/assets/images/pfadv.webp";
+import schunemann from "/src/assets/images/schunemann.webp";
+import vueside from "/src/assets/images/vueside.webp";
+import vuetodo from "/src/assets/images/vuetodo.webp";
+import pro3 from "/src/assets/images/constru.webp";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
