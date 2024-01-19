@@ -2,7 +2,7 @@ import pfadv from "/src/assets/images/pfadv.webp";
 import schunemann from "/src/assets/images/schunemann.webp";
 import vueside from "/src/assets/images/vueside.webp";
 import vuetodo from "/src/assets/images/vuetodo.webp";
-import pro3 from "/src/assets/images/constru.webp";
+import spot from "/src/assets/images/spot.png";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
 
@@ -64,13 +64,13 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
-            link="https://schunemannclinica.netlify.app"
-            img={pro3}
-            alt="const image"
-            name="em construção"
-            type="Frontend Development"
+            link="https://ui-remake-spot.netlify.app/"
+            img={spot}
+            alt="spotify ui remake image"
+            name="Spotify UI Redesign"
+            type="UX/UI • Frontend Development"
             year="2024"
-            tools="HTML • TailwindCSS • React"
+            tools="CSS • HTML • JavaScript"
           />
          
         </div>
