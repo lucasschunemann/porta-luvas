@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profileImg from "/src/assets/images/eulucas1.webp";
+import profileImg from "/src/assets/images/lucasvondev.webp";
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
@@ -44,25 +44,35 @@ export default function About() {
             src={profileImg}
             width="600"
             height="800"
-            alt="imagem de luquinhas"
+            alt="Imagem do desenvolvedor"
           />
         </div>
-        <div className="top-20 sm:sticky md:top-28 lg:top-32 md:w-1/2">
+        <div className="top-20 sm:sticky md:top-28 md:w-1/2 lg:top-32">
           <div className="w-full space-y-4 2xl:space-y-10">
             <h3
               ref={heading}
-              className="translate-y-10 text-heading-3 2xl:text-7xl font-semibold leading-tight opacity-0"
+              className="translate-y-10 text-heading-3 font-semibold leading-tight opacity-0 2xl:text-7xl"
             >
               Resumindo, quem sou eu?
             </h3>
-            <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
+            <p
+              ref={body}
+              className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl"
+            >
               <br></br>
-              Como Desenvolvedor Front-End autônomo e Designer UI/UX, estabeleci minha base no estado de Santa Catarina, Brasil.
-            <br></br>
-            <br></br>Minha especialidade reside em elaborar designs elegantes, fáceis de usar e de estética minimalista, particularmente voltados para startups e negócios de pequeno porte. Meu foco é posicionar estas empresas de forma proeminente no mundo digital, garantindo que elas deixem uma impressão duradoura e impactante.
-            <br></br>
-            <br></br>
-            Meu amor por lo-fi e matcha se infiltra em meu trabalho, permitindo-me adicionar um toque pessoal e distinto a cada projeto que realizo. 🍵
+              Como Desenvolvedor Front-End autônomo e Designer UI/UX, estabeleci
+              minha base em Santa Catarina, Brasil.
+              <br></br>
+              <br></br>Minha especialidade é criar sites elegantes, intuitivos e
+              com uma estética minimalista, especialmente voltados para startups
+              e pequenos negócios. Meu objetivo é posicionar essas empresas de
+              maneira destacada no mundo digital, garantindo que deixem uma
+              impressão duradoura e impactante.
+              <br></br>
+              <br></br>
+              Minha paixão por lo-fi e matcha se reflete no meu trabalho,
+              adicionando um toque pessoal e único a cada projeto que realizo.
+              🍵
               <br></br>
               <br></br>
             </p>
