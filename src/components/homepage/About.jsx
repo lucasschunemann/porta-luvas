@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profileImg from "/src/assets/images/lucasvondev.webp";
+import profileImg from "/src/assets/images/devlucas.webp";
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
 import Heading from "../ui/Heading";
