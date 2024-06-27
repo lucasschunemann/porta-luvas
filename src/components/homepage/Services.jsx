@@ -11,11 +11,11 @@ export default function Services() {
 
   const toolBoxItems = [
     "JavaScript",
-    "Figma",
+    "ReactJS",
     "GSAP",
     "TailwindCSS",
-    "ReactJS",
-    "VueJS",
+    "Figma",
+    "Framer",
   ];
 
   return (
