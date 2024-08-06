@@ -1,6 +1,6 @@
 import pfadv from "/src/assets/images/pfadv.png";
 import schunemann from "/src/assets/images/schunemann.webp";
-import vueside from "/src/assets/images/vueside.webp";
+import reactlist from "/src/assets/images/contactlist.png";
 import vuetodo from "/src/assets/images/vuetodo.webp";
 import spot from "/src/assets/images/spot.png";
 import Projects from "../ui/Projects";
@@ -41,13 +41,13 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://sidebar-vue.netlify.app/"
-            img={vueside}
-            alt="Sidebar in vue"
-            name="Vue Sidebar"
+            link="https://contactlist-eta.vercel.app/"
+            img={reactlist}
+            alt="Contact list in React"
+            name="React Contact List"
             type="Frontend Development (Study)"
             year="2024"
-            tools="VueJS • SASS • JavaScript"
+            tools="ReactJS • JavaScript"
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
