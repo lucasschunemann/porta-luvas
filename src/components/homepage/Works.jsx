@@ -11,9 +11,9 @@ export default function Works({ forwardedRef }) {
     <section
       ref={forwardedRef}
       id="works"
-      className="nav-change overflow-hidden my-[10%]"
+      className="nav-change my-[10%] overflow-hidden"
     >
-     <Heading title="portfolio" />
+      <Heading title="portfolio" />
       <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
@@ -25,7 +25,6 @@ export default function Works({ forwardedRef }) {
             type="Web Design • Frontend Development"
             year="2023-2024"
             tools="HTML • JavaScript • CSS"
-
           />
         </div>
 
@@ -63,7 +62,7 @@ export default function Works({ forwardedRef }) {
           />
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
-        <Projects
+          <Projects
             link="https://ui-remake-spot.netlify.app/"
             img={spot}
             alt="spotify ui remake image"
@@ -72,7 +71,6 @@ export default function Works({ forwardedRef }) {
             year="2024"
             tools="CSS • HTML • JavaScript"
           />
-         
         </div>
       </div>
     </section>

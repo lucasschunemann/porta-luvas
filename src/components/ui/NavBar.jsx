@@ -30,7 +30,6 @@ export default function NavBar({ sectionRefs }) {
     });
   });
 
-
   useEffect(() => {
     sectionRefs.forEach((section) => {
       ScrollTrigger.create({
@@ -47,7 +46,6 @@ export default function NavBar({ sectionRefs }) {
         toggleActions: "restart reverse restart reverse",
       });
     });
-
   });
 
   return (
@@ -57,12 +55,8 @@ export default function NavBar({ sectionRefs }) {
     >
       {/* logo */}
       <a href="#hero" aria-label="Logo" className="z-50">
-    <img 
-      src={devlogo} 
-      alt="Logo" 
-      className="hidden md:block w-28 h-auto" // Logo está oculto em telas pequenas e visível em telas médias para cima
-    />
-  </a>
+        <span className="text-xl">Lucas Von</span>
+      </a>
       <nav className=" space-x-7 font-grotesk text-body-3 sm:block">
         <a href="#about" className="group relative hidden md:inline-block">
           <span>sobre</span>
@@ -78,15 +72,14 @@ export default function NavBar({ sectionRefs }) {
         </a>
         <a
           ref={cta}
-          className="button group relative hover:bg-transparent mx-auto sm:mx-0 mt-1 sm:mt-0 block sm:inline-block"
+          className="button group relative mx-auto mt-1 block hover:bg-transparent sm:mx-0 sm:mt-0 sm:inline-block"
           href="#contact"
         >
-        <span className="relative w-fit">
-          <span className="absolute bottom-2 h-[0.15em] w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
-          <span>Entre em Contato.</span>
-        </span>
-      </a>
-
+          <span className="relative w-fit">
+            <span className="absolute bottom-2 h-[0.15em] w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
+            <span>Entre em Contato.</span>
+          </span>
+        </a>
       </nav>
     </header>
   );
