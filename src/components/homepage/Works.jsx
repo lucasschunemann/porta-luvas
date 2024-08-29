@@ -1,5 +1,5 @@
 import pfadv from "/src/assets/images/pfadv.png";
-import schunemann from "/src/assets/images/schunemann.webp";
+import wfclinica from "/src/assets/images/wfclinica.png";
 import reactlist from "/src/assets/images/contactlist.png";
 import vuetodo from "/src/assets/images/vuetodo.webp";
 import spot from "/src/assets/images/spot.png";
@@ -11,12 +11,12 @@ export default function Works({ forwardedRef }) {
     <section
       ref={forwardedRef}
       id="works"
-      className="nav-change my-[10%] overflow-hidden"
+      className="nav-change my-[12%] overflow-hidden"
     >
       <Heading title="portfolio" />
-      <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
+      <div className="mt-24 grid grid-cols-1 gap-y-48 md:grid-cols-12">
         {/* Project #1 */}
-        <div className=" col-span-1 md:col-span-12">
+        <div className="col-span-1 md:col-span-8 md:pr-12">
           <Projects
             link="https://pfadvogados.netlify.app"
             img={pfadv}
@@ -28,18 +28,19 @@ export default function Works({ forwardedRef }) {
           />
         </div>
 
-        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
+        <div className="col-span-1 md:col-span-4 md:pl-12 md:pt-32">
           <Projects
-            link="https://schunemannclinica.netlify.app"
-            img={schunemann}
-            alt="schunemann clinica page mockup"
-            name="Clínica Schunemann"
+            link="https://wfodonto.netlify.app"
+            img={wfclinica}
+            alt="wf clinica page mockup"
+            name="Clínica Odontológica WF"
             type="Frontend Development"
             year="2024"
-            tools="HTML • CSS • JavaScript"
+            tools="NextJS"
           />
         </div>
-        <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
+
+        <div className="col-span-1 md:col-span-6 md:pr-16 md:pt-48">
           <Projects
             link="https://contactlist-eta.vercel.app/"
             img={reactlist}
@@ -50,7 +51,8 @@ export default function Works({ forwardedRef }) {
             tools="ReactJS • JavaScript"
           />
         </div>
-        <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
+
+        <div className="col-span-1 md:col-span-6 md:pl-16 md:pt-64">
           <Projects
             link="https://to-vue-do.netlify.app"
             img={vuetodo}
@@ -61,7 +63,8 @@ export default function Works({ forwardedRef }) {
             tools="VueJS • JavaScript • CSS"
           />
         </div>
-        <div className="col-span-1 h-fit md:col-span-4">
+
+        <div className="col-span-1 md:col-span-12 md:pt-80">
           <Projects
             link="https://ui-remake-spot.netlify.app/"
             img={spot}

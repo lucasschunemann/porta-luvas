@@ -11,8 +11,8 @@ export default function Projects({ name, img, alt, type, link, year, tools }) {
           className="w-screen duration-700 ease-in-out group-hover:scale-105"
           src={img}
           alt={alt}
-          width="800"
-          height="600"
+          width="1000"
+          height="800"
         />
       </a>
       <div className="mt-4">
