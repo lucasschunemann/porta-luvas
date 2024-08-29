@@ -10,12 +10,12 @@ export default function Services() {
   ];
 
   const toolBoxItems = [
-    "JavaScript",
-    "ReactJS",
-    "GSAP",
-    "TailwindCSS",
     "Figma",
     "Framer",
+    "ReactJS",
+    "TailwindCSS",
+    "Notion",
+    "ChatGPT/Gemini",
   ];
 
   return (

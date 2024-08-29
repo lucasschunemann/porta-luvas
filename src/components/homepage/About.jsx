@@ -60,8 +60,7 @@ export default function About() {
               className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl"
             >
               <br></br>
-              Como Desenvolvedor Front-End autônomo e Designer UI/UX, estabeleci
-              minha base em Santa Catarina, Brasil.
+              Sou um desenvolvedor web e designer UX/UI freelancer, apaixonado por criar sites que unem elegância e funcionalidade.
               <br></br>
               <br></br>Minha especialidade é criar sites elegantes, intuitivos e
               com uma estética minimalista, especialmente voltados para startups
@@ -70,9 +69,7 @@ export default function About() {
               impressão duradoura e impactante.
               <br></br>
               <br></br>
-              Minha paixão por lo-fi e matcha se reflete no meu trabalho,
-              adicionando um toque pessoal e único a cada projeto que realizo.
-              🍵
+              Acredito que cada projeto é único, e busco refletir a personalidade e os valores de cada cliente em cada detalhe do design. Minha paixão por lo-fi e matcha 🍵 inspira minha abordagem criativa, resultando em sites que se destacam pela simplicidade, beleza e facilidade de uso.
               <br></br>
               <br></br>
             </p>
